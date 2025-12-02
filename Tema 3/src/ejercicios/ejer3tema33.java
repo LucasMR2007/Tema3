@@ -14,17 +14,15 @@ public class ejer3tema33 {
 		System.out.println(nombre + " , " + anno);
 
 		System.out.println("L\tM\tX\tJ\tV\tS\tD");
-		for (int i = 1; i <= dias; i++) {
+		for (int i = 1; i <= dias; i++) {}
 			
-			if (i==7) {
-				System.out.println("\n");
-			} else {
+		
 			
 			
 			
 
 			
-		}
+		
 
 	}
 
