@@ -25,7 +25,6 @@ public class mainBanco {
 		float dinero= teclado.nextFloat();
 		
 		
-		
 		banco b1= new banco(nombre, DNI, domicilio, letraDNI, dinero);
 		
 		System.out.println(b1);

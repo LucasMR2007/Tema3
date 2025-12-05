@@ -67,6 +67,7 @@ public class banco {
 		}
 	
 	
+	
 	public void domicilioNuevo (String nuevoDomicilio) {
 		domicilio=nuevoDomicilio;
 	}

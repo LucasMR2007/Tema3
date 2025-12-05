@@ -19,10 +19,6 @@ public class ejer3tema33 {
 		
 			
 			
-			
-
-			
-		
 
 	}
 

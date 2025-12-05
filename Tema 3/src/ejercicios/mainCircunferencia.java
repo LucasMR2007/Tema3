@@ -10,7 +10,6 @@ public class mainCircunferencia {
 		System.out.println(c1);
 		System.out.println("Diametro: " + c1.calcularDiametro() + "\nArea: " + c1.calcularArea() + "\nLongitud: " + c1.calcularLongitud());
 		
-	
 		
 
 	}

@@ -27,6 +27,7 @@ public class ejer1tema3 {
 		boolean  resulNarci= esNarcisista(7);
 		System.out.println(resulNarci);
 	}
+	
 
 	public static int sumaNumeros(int num1, int num2) {
 

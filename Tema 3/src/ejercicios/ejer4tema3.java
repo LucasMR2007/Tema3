@@ -28,6 +28,7 @@ public class ejer4tema3 {
 		System.out.println("El numero en hexadecimal es: " + hexadecimal);
 	
 	}
+	
 
 	public static String calcularBinario(int decimal) {
 		String numeroBinario = "";

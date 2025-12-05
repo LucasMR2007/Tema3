@@ -78,6 +78,7 @@ public class rectangulo {
 			}
 		}
 	}
+	
 
 	public void calcularArea(int area) {
 		area = base * altura;

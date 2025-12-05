@@ -21,6 +21,7 @@ public class mainRectangulo {
 			System.out.println("5) REPRESENTAR MEDIANTE ASTERISCOS");
 			System.out.println("6) MOSTRAR TODO");
 			opcion = teclado.nextInt();
+			
 			switch (opcion) {
 			
 			case 0:

@@ -12,6 +12,7 @@ public class ejer18parte2 {
 			int resultado = 0;
 			int opcion;
 
+			
 			do {
 				opcion = mostrarMenu(teclado);
 
