@@ -31,5 +31,21 @@ public class jugador {
 		vida = vida - 10;
 		
 	}
+	public boolean haPerdido() {
+		if (vida==0) {
+			return true;
+		}
+		return false;
+	}
+	
+			
+		
+	
+
+	@Override
+	public String toString() {
+		return "Vida de " + nombre +" es " + vida;
+	}
+	
 
 }
