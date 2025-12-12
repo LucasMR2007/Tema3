@@ -35,7 +35,7 @@ public class tablero {
 
 		int nuevaPosicion = p.getX() + desplazamiento;
 		p.setX(nuevaPosicion);
-		
+
 		if (nuevaPosicion < 1) {
 			p.setX(1);
 		} else if (nuevaPosicion > 10) {
@@ -55,17 +55,29 @@ public class tablero {
 		}
 
 	}
-	public void distEuclidea(int distX2, int distY2, int desplazamientoX, int desplazamientoY) {
-		int distX1= p.getX();
-		int distY1= p.getY();
-		
-		distX2= p.getX() + desplazamientoX;
-		distY2= p.getY() + desplazamientoY;
-		
-		
-		
-		
-		
+
+	public void distEuclidea(int x2, int y2) {
+		int x1 = p.getX();
+		int y1 = p.getY();
+		if (x2 < 1) {
+			x2 = 1;
+		} else if (x2 > 10) {
+			x2 = 10;
+		}
+		if (y2 < 1) {
+			y2 = 1;
+		} else if (y2 > 10) {
+			y2 = 10;
+		}
+
+		double despX = x2 - x1;
+		despX = Math.pow(despX, 2);
+		double despY = y2 - y1;
+		despY = Math.pow(despY, 2);
+		double suma = despX + despY;
+		double raiz = Math.sqrt(suma);
+		System.out.println(raiz);
+
 	}
 
 }
